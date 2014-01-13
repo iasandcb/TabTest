@@ -14,13 +14,16 @@
 		40DE04CB188371A5009500AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE04CA188371A5009500AE /* main.m */; };
 		40DE04CF188371A5009500AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE04CE188371A5009500AE /* AppDelegate.m */; };
 		40DE04D2188371A5009500AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DE04D0188371A5009500AE /* Main.storyboard */; };
-		40DE04D5188371A5009500AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE04D4188371A5009500AE /* ViewController.m */; };
 		40DE04D7188371A5009500AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DE04D6188371A5009500AE /* Images.xcassets */; };
 		40DE04DE188371A5009500AE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40DE04DD188371A5009500AE /* XCTest.framework */; };
 		40DE04DF188371A5009500AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40DE04BE188371A5009500AE /* Foundation.framework */; };
 		40DE04E0188371A5009500AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40DE04C2188371A5009500AE /* UIKit.framework */; };
 		40DE04E8188371A5009500AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40DE04E6188371A5009500AE /* InfoPlist.strings */; };
 		40DE04EA188371A5009500AE /* TabTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE04E9188371A5009500AE /* TabTestTests.m */; };
+		40DE04F5188373C1009500AE /* airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DE04F3188373C0009500AE /* airplane.png */; };
+		40DE04F6188373C1009500AE /* backpack.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DE04F4188373C0009500AE /* backpack.png */; };
+		40DE04F918837D62009500AE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE04F818837D62009500AE /* FirstViewController.m */; };
+		40DE04FC18837D6F009500AE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE04FB18837D6F009500AE /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,18 @@
 		40DE04CD188371A5009500AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40DE04CE188371A5009500AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		40DE04D1188371A5009500AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		40DE04D3188371A5009500AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		40DE04D4188371A5009500AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		40DE04D6188371A5009500AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		40DE04DC188371A5009500AE /* TabTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40DE04DD188371A5009500AE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		40DE04E5188371A5009500AE /* TabTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabTestTests-Info.plist"; sourceTree = "<group>"; };
 		40DE04E7188371A5009500AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40DE04E9188371A5009500AE /* TabTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabTestTests.m; sourceTree = "<group>"; };
+		40DE04F3188373C0009500AE /* airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplane.png; sourceTree = "<group>"; };
+		40DE04F4188373C0009500AE /* backpack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backpack.png; sourceTree = "<group>"; };
+		40DE04F718837D62009500AE /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		40DE04F818837D62009500AE /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		40DE04FA18837D6F009500AE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		40DE04FB18837D6F009500AE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +122,12 @@
 				40DE04CD188371A5009500AE /* AppDelegate.h */,
 				40DE04CE188371A5009500AE /* AppDelegate.m */,
 				40DE04D0188371A5009500AE /* Main.storyboard */,
-				40DE04D3188371A5009500AE /* ViewController.h */,
-				40DE04D4188371A5009500AE /* ViewController.m */,
 				40DE04D6188371A5009500AE /* Images.xcassets */,
 				40DE04C5188371A5009500AE /* Supporting Files */,
+				40DE04F718837D62009500AE /* FirstViewController.h */,
+				40DE04F818837D62009500AE /* FirstViewController.m */,
+				40DE04FA18837D6F009500AE /* SecondViewController.h */,
+				40DE04FB18837D6F009500AE /* SecondViewController.m */,
 			);
 			path = TabTest;
 			sourceTree = "<group>";
@@ -126,6 +135,8 @@
 		40DE04C5188371A5009500AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				40DE04F3188373C0009500AE /* airplane.png */,
+				40DE04F4188373C0009500AE /* backpack.png */,
 				40DE04C6188371A5009500AE /* TabTest-Info.plist */,
 				40DE04C7188371A5009500AE /* InfoPlist.strings */,
 				40DE04CA188371A5009500AE /* main.m */,
@@ -231,6 +242,8 @@
 				40DE04D7188371A5009500AE /* Images.xcassets in Resources */,
 				40DE04C9188371A5009500AE /* InfoPlist.strings in Resources */,
 				40DE04D2188371A5009500AE /* Main.storyboard in Resources */,
+				40DE04F6188373C1009500AE /* backpack.png in Resources */,
+				40DE04F5188373C1009500AE /* airplane.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40DE04D5188371A5009500AE /* ViewController.m in Sources */,
+				40DE04FC18837D6F009500AE /* SecondViewController.m in Sources */,
 				40DE04CF188371A5009500AE /* AppDelegate.m in Sources */,
+				40DE04F918837D62009500AE /* FirstViewController.m in Sources */,
 				40DE04CB188371A5009500AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
